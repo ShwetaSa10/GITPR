@@ -1,0 +1,25 @@
+
+// git status 
+// git init
+
+
+// working     =======>   staging =======> localrepo
+
+                                                                //remote repo
+
+git - status  ---> red untracked   
+git add .   ====> working  to staging
+git commit -m "loginfeatur" =====> staging to local repo
+
+(git config --global user.email "minskoleopc@gmail.commit")
+(git config --global user.name "Minskoleopc")
+
+git commit -m "loginfeatur"
+
+// git hub (login to git hub)
+// create new repo 
+
+
+git branch -M main
+git remote add origin https://github.com/Minskoleopc/gitPr.git
+git push -u origin main
